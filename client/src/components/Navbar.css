@@ -1,73 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap");
 
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
 
-.nav{
-    margin: 0;
-    box-sizing: border-box;
-    background-color: rgb(243, 18, 35);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90px;
-    font-family: 'Montserrat', sans-serif;
+.nav {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(243, 18, 35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90px;
+  font-family: "Montserrat", sans-serif;
 }
 
-.container{
-    width: 95%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+.container {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.logo{
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    cursor: pointer;
+.logo {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
-ul{
-    display: flex;
-    list-style: none;
-    font-size: medium;
-    color: aliceblue;
-    font-weight: bolder;
-    justify-content: space-between;
-    align-items: center;
+ul {
+  display: flex;
+  list-style: none;
+  font-size: normal;
+  color: aliceblue;
+  font-weight: bolder;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.links{
-    width: 50%;
+.links {
+  width: 60%;
 }
 
-.link{
-    padding: 10px;
-    cursor: pointer;
-    float: left;
+.link {
+  padding: 10px;
+  cursor: pointer;
+  float: left;
 }
 
-.contactBtn{
-    font-family: 'Montserrat', sans-serif;
-    background-color: black;
-    border: none;
-    height: 40px;
-    width: 120px;
-    border-radius: 10px;
-    font-size: medium;
-    font-weight: bolder;
-    color: aliceblue;
-    cursor: pointer;
+.contactBtn {
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+  border: none;
+  height: 40px;
+  width: 120px;
+  border-radius: 10px;
+  font-size: medium;
+  font-weight: bolder;
+  color: aliceblue;
+  cursor: pointer;
 }
 
-.contactBtn:hover{
-    background-color: grey;
+.contactBtn:hover {
+  background-color: grey;
 }
 
-.link:hover{
-    background-color: white;
-    color: black;
+.link:hover {
+  background-color: white;
+  color: black;
 }
