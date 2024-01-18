@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.jpg";
-import "./Navbar.css"
+import "./Navbar.css";
 
 function Navbar() {
   return (
@@ -16,7 +16,9 @@ function Navbar() {
             <li className="link">About Us</li>
             <li className="link">Projects</li>
             <li className="link">Contact Us</li>
-            <a href="/"><button className="contactBtn">Get in Touch</button></a>
+            <a href="/">
+              <button className="contactBtn">Get in Touch</button>
+            </a>
           </ul>
         </div>
       </div>
