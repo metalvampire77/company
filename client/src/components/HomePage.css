@@ -4,13 +4,14 @@
 .homepage {
   background-color: rgb(243, 18, 35);
   width: 100%;
-  min-height: 87vh;
+  min-height: 95vh;
   display: flex;
   justify-content: center;
   box-sizing: border-box;
 }
 
 .homeContainer {
+  margin-top: 60px;
   display: flex;
   width: 90%;
   justify-content: center;
@@ -30,7 +31,7 @@
 .motive {
   margin-top: -90px;
   width: 60%;
-  font-size: 50px;
+  font-size: 275%;
   font-weight: 800;
   color: #ffffff;
   font-family: "Poppins", sans-serif;

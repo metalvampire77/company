@@ -36,7 +36,7 @@ const carouselData = [
 
 function Projects() {
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <div className="projectsContainer">
         <p className="projectHeading">PROJECTS</p>
         <Carousel

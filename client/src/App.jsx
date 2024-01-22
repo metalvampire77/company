@@ -4,6 +4,7 @@ import Services from "./components/Services";
 import Projects from "./components/Projects";
 import Turnover from "./components/Turnover";
 import Footer from "./components/Footer";
+// import NavScrollExample from "./components/Navbar";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Services />
       <Projects />
       <Turnover />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
